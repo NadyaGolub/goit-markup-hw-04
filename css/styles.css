@@ -7,6 +7,7 @@
   --secondary-text-color: #757575;
   --footer-text-color: rgba(255, 255, 255, 0.6);
   --logo-text-color: #000;
+  --icons-color: #afb1b8;
 }
 
 /* Скидання налаштувань */
@@ -153,11 +154,30 @@ body {
   color: var(--accent-color);
 }
 
+.contacts-icon {
+  fill: var(--secondary-text-color);
+  stroke: var(--secondary-text-color);
+}
+.contacts-icon:hover,
+.contacts-icon:focus {
+  fill: var(--accent-color);
+  stroke: var(--accent-color);
+}
+
 /* Основний контент сторінки Студія*/
 
 .section-hero {
   background-color: var(--brand-color);
   padding: 200px 0;
+
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/studio/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .hero-title {
   color: var(--primary-text-color);
@@ -218,6 +238,7 @@ body {
 .text-priority {
   width: 270px;
 }
+
 .section-title {
   font-weight: 700;
   font-size: 14px;
@@ -255,6 +276,7 @@ body {
   font-size: 16px;
   line-height: 1.2;
   text-align: center;
+  margin-bottom: 16px;
 }
 .image {
   padding-top: 30px;
@@ -265,6 +287,35 @@ body {
   background-color: #f5f4fa;
 }
 
+/* Оформлення іконок */
+
+.socials-list {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.socials-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  background-color: var(--primary-text-color);
+  border-radius: 50%;
+}
+.socials-link:hover,
+.socials-link:focus {
+  background-color: var(--accent-color);
+}
+
+.socials-link:hover .socials-icon,
+.socials-link:focus .socials-icon {
+  fill: var(--primary-text-color);
+}
+.socials-icon {
+  fill: var(--icons-color);
+}
 /* Основний контент сторінки Портфоліо */
 
 .button {
@@ -374,4 +425,43 @@ body {
 .items-contacts:hover,
 .items-contacts:focus {
   color: var(--accent-color);
+}
+
+/* Розділ ПРИЄДНУЙТЕСЬ */
+
+.footer-text {
+  color: var(--primary-text-color);
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+/* Оформлення іконок */
+
+.socials-link-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+
+.socials-link-footer:hover,
+.socials-link-footer:focus {
+  background-color: var(--accent-color);
+}
+
+.socials-icon-footer {
+  fill: var(--primary-text-color);
+}
+.footer-icons {
+  display: flex;
+  gap: 10px;
 }

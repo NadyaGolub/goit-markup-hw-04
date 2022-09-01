@@ -1,0 +1,52 @@
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+/* ==========================================
+Single-colored icons can be modified like so:
+.name {
+  font-size: 32px;
+  color: red;
+}
+========================================== */
+
+.antenna {
+  width: 0.9423828125em;
+}
+
+.tvitter {
+  width: 1.111328125em;
+}
+
+.brand {
+  width: 1.7666015625em;
+}
+
+.foster-peters {
+  width: 2.0234375em;
+}
+
+.company {
+  width: 1.0712890625em;
+}
+
+.Logo {
+  width: 1.7666015625em;
+}
+
+.Union {
+  width: 0.8720703125em;
+}
+
+.phone {
+  width: 0.625em;
+}
+
+.mail {
+  width: 1.3330078125em;
+}
