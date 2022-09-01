@@ -15,12 +15,8 @@ Single-colored icons can be modified like so:
 }
 ========================================== */
 
-.antenna {
-  width: 0.9423828125em;
-}
-
-.tvitter {
-  width: 1.111328125em;
+.company-tagline {
+  width: 1.7666015625em;
 }
 
 .brand {
@@ -28,19 +24,19 @@ Single-colored icons can be modified like so:
 }
 
 .foster-peters {
-  width: 2.0234375em;
-}
-
-.company {
-  width: 1.0712890625em;
-}
-
-.Logo {
   width: 1.7666015625em;
 }
 
-.Union {
-  width: 0.8720703125em;
+.company {
+  width: 1.7666015625em;
+}
+
+.tagline {
+  width: 1.7666015625em;
+}
+
+.yaco {
+  width: 1.7666015625em;
 }
 
 .phone {
@@ -49,4 +45,8 @@ Single-colored icons can be modified like so:
 
 .mail {
   width: 1.3330078125em;
+}
+
+.tvitter {
+  width: 1.111328125em;
 }
