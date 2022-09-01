@@ -293,6 +293,8 @@ body {
 
 .team {
   background-color: #f5f4fa;
+  margin-bottom: 94px;
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 
@@ -515,9 +517,6 @@ body {
   line-height: 16px;
   text-transform: uppercase;
   margin-bottom: 20px;
-  display: flex;
-  justify-content: center;
-  display: flex;
 }
 
 .footer-container {
@@ -540,7 +539,10 @@ body {
 .socials-link-footer:focus {
   background-color: var(--accent-color);
 }
-
+.footer-box {
+  margin-left: 70px;
+  margin-top: 12px;
+}
 .socials-icon-footer {
   fill: var(--primary-text-color);
 }
