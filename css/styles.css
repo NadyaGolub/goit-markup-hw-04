@@ -285,9 +285,17 @@ body {
 
 .team {
   background-color: #f5f4fa;
+  padding-bottom: 94px;
 }
 
-/* Оформлення іконок */
+/* Оформлення іконок Наша команда */
+
+.work-box {
+  background-color: var(--primary-text-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
 
 .socials-list {
   display: flex;
@@ -316,6 +324,48 @@ body {
 .socials-icon {
   fill: var(--icons-color);
 }
+
+/* Оформлення секції Наші партнери */
+
+.clients {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+
+  margin-bottom: 50px;
+}
+.brand-icons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.partners-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 92px;
+
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+.partners-icon:hover,
+.partners-icon:focus {
+  border-color: var(--accent-color);
+}
+
+.socials-partners-icon {
+  fill: var(--icons-color);
+}
+
+.socials-partners-icon:hover,
+.socials-partners-icon:focus {
+  background-color: var(--accent-color);
+}
+
 /* Основний контент сторінки Портфоліо */
 
 .button {
