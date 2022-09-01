@@ -129,6 +129,8 @@ body {
   font-size: 14px;
   line-height: 1.2px;
   letter-spacing: 0.02em;
+  display: flex;
+  align-items: center;
 }
 .current-contacts:hover,
 .current-contacts:focus {
@@ -288,6 +290,24 @@ body {
   padding-bottom: 94px;
 }
 
+/* Оформлення іконок Наші особливості  */
+
+.features-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+}
+
+.brand-features-icons {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
 /* Оформлення іконок Наша команда */
 
 .work-box {
@@ -363,7 +383,7 @@ body {
 
 .socials-partners-icon:hover,
 .socials-partners-icon:focus {
-  background-color: var(--accent-color);
+  fill: var(--accent-color);
 }
 
 /* Основний контент сторінки Портфоліо */
@@ -481,14 +501,17 @@ body {
 
 .footer-text {
   color: var(--primary-text-color);
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-bottom: 20px;
+}
+
+.footer-box {
+  display: flex;
+  justify-content: center;
 }
 
 /* Оформлення іконок */
