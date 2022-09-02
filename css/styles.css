@@ -120,7 +120,7 @@ body {
   letter-spacing: 0.02em;
 }
 .current-title:hover,
-.current-title :focus {
+.current-title:focus {
   color: var(--accent-color);
 }
 
@@ -140,6 +140,12 @@ body {
 .current-contacts:hover,
 .current-contacts:focus {
   color: var(--accent-color);
+}
+
+.current-contacts:hover .contacts-icon,
+.current-contacts:focus .contacts-icon {
+  fill: var(--accent-color);
+  stroke: var(--accent-color);
 }
 
 .nav a.current {
@@ -293,7 +299,7 @@ body {
 
 .team {
   background-color: #f5f4fa;
-  margin-bottom: 94px;
+
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -307,6 +313,7 @@ body {
   width: 270px;
   height: 120px;
   background-color: #f5f4fa;
+  margin-bottom: 30px;
 }
 
 .brand-features-icons {
@@ -376,7 +383,6 @@ body {
   justify-content: center;
   width: 170px;
   height: 92px;
-
   border: 1px solid #afb1b8;
   border-radius: 4px;
 }
@@ -392,6 +398,12 @@ body {
 .socials-partners-icon:hover,
 .socials-partners-icon:focus {
   fill: var(--accent-color);
+}
+
+.partners-icon:hover .socials-partners-icon,
+.partners-icon:focus .socials-partners-icon {
+  fill: var(--accent-color);
+  border-color: var(--accent-color);
 }
 
 /* Основний контент сторінки Портфоліо */
@@ -521,6 +533,7 @@ body {
 
 .footer-container {
   display: flex;
+  align-items: baseline;
 }
 
 /* Оформлення іконок */
@@ -541,7 +554,6 @@ body {
 }
 .footer-box {
   margin-left: 70px;
-  margin-top: 12px;
 }
 .socials-icon-footer {
   fill: var(--primary-text-color);
